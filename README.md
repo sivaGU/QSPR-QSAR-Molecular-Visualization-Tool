@@ -6,11 +6,11 @@ A comprehensive web-based application for interactive 3D visualization and analy
 
 ### Core Visualization
 - **Interactive 3D Molecular Viewer**: Rotate, zoom, and explore molecular structures using NGL Viewer
-- **ERα and ERβ Receptor Structures**: View 106 ligand complexes for each receptor type
+- **ERα and ERβ Receptor Structures**: View 138 ligand complexes for each receptor type
 - **Real-time Structure Loading**: Dynamic PDB file loading with protein-ligand visualization
 
 ### Data Analysis Dashboard
-- **Statistical Summaries**: Comprehensive statistics for Alpha CE, Beta CE, Alpha T50, and Beta T50 datasets
+- **Statistical Summaries**: Comprehensive statistics for Alpha CE, Beta CE, Alpha TB, and Beta TB datasets
 - **Interactive Charts**: Bar charts, scatter plots, and distribution visualizations
 - **Descriptor Analysis**: LogP, Molecular Weight, and PSA comparisons across datasets
 
@@ -44,8 +44,8 @@ Final GitHub Submission/
 ├── .gitignore                   # Git ignore file
 ├── Alpha_CE_Combined/           # ERα commonly exposed ligand structures
 ├── Beta_CE_Combined/            # ERβ commonly exposed ligand structures
-├── Alpha_T50_Combined/          # ERα T50 ligand structures
-├── Beta_T50_Combined/           # ERβ T50 ligand structures
+├── Alpha_TB_Combined/          # ERα TB ligand structures
+├── Beta_TB_Combined/           # ERβ TB ligand structures
 └── QSAR Submission/             # Supplementary data and tables
     ├── Supplementary Tables and Figures/
     └── Supplementary Codes/
@@ -92,7 +92,7 @@ The application features a sidebar navigation with the following pages:
 - **About**: Project information and documentation
 
 ### Key Features
-1. **Molecular Visualization**: Select any of 106 ligands to view in 3D
+1. **Molecular Visualization**: Select any of 138 ligands to view in 3D
 2. **Data Analysis**: Explore statistical summaries and trends
 3. **Model Performance**: Track QSAR model improvements
 4. **Interactive Charts**: Hover, zoom, and explore data visualizations
@@ -100,9 +100,9 @@ The application features a sidebar navigation with the following pages:
 ## 📊 Data Sources
 
 The application includes comprehensive datasets:
-- **106 ERα ligand complexes** (Alpha_CE_Combined)
-- **106 ERβ ligand complexes** (Beta_CE_Combined)
-- **T50 datasets** for both receptors
+- **138 ERα ligand complexes** (Alpha_CE_Combined)
+- **138 ERβ ligand complexes** (Beta_CE_Combined)
+- **TB datasets** for both receptors
 - **QSAR model results** with refinement steps
 - **Chemical descriptor coefficients** from manuscript analysis
 
