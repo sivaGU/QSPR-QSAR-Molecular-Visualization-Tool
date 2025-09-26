@@ -192,7 +192,7 @@ If you encounter issues:
 2. **Check the troubleshooting section** in the main README
 3. **Verify your Python version**: `python --version`
 4. **Check your browser console** for JavaScript errors (F12)
-5. **Ensure all 212 PDB files** are present in the data folders
+5. **Ensure all 276 PDB files** are present in the data folders
 
 For additional support, please include:
 - Your operating system and version
@@ -204,4 +204,5 @@ For additional support, please include:
 
 ## Success!
 
-Once you see the verification script pass all checks, you're ready to use the QSAR GUI! The application will provide interactive 3D visualization of 212 PFAS ligand-receptor complexes with full functionality. 
+Once you see the verification script pass all checks, you're ready to use the QSAR GUI! The application will provide interactive 3D visualization of 276 PFAS ligand-receptor complexes with full functionality. 
+
