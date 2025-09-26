@@ -39,7 +39,7 @@ def check_data_files():
     """Check if all data files are present."""
     print("\n📁 Checking data files...")
     
-    expected_folders = ['Alpha_CE_Combined', 'Beta_CE_Combined', 'Alpha_T50_Combined', 'Beta_T50_Combined']
+    expected_folders = ['Alpha_CE_Combined', 'Beta_CE_Combined', 'Alpha_TB_Combined', 'Beta_TB_Combined']
     total_files = 0
     
     for folder in expected_folders:
@@ -131,4 +131,5 @@ def main():
 
 if __name__ == "__main__":
     success = main()
+
     sys.exit(0 if success else 1) 
